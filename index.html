@@ -6,124 +6,115 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Timilehin"s Portfolio</title>
-  <link rel="stylesheet" href="./MyPortfolio/css/style.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
-  <!-- main logo / nav -->
-  <!-- Added nav bar -->
-  <header>
-    <h1>Timilehin</h1>
-    <nav>
-      <ul>
-        <li>
-            <a href="#About-Me">About Me</a>
-        </li>
-        <li>
-            <a href="#Work">Work</a>
-        </li>
-        <li>
-            <a href="#Contact-Me">Contact Me</a>
-        </li>
-        <li>
-          <a href="#">Resume</a>
-        </li>
+   <!-- main logo / nav -->
+<!--Added nav bar -->
+<header>
+  <h1>Timilehin</h1>
+  <nav>
+    <ul>
+
+      <li><a href="#about-me"> About me</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact-me">Contact</a></li>
+      <li><a href="#">Resume</a></li>
+
+
     </ul>
-    </nav>
-  </header>
+  </nav>
+</header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div class="Message">
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
+<!-- hero banner -->
+<section class="hero-banner">
+  <div class="message">
+    <h2>Cool subtitle here!</h2>
+  </div>
+</section>
 
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <div class="information-header">
+<main class="page-wrapper">
+  <!-- about me -->
+
+  <article class="about-me information-article" id="about-me">
+    <div class="information-header">
       <h2>About Me</h2>
     </div>
     <div class="information-body">
       <p>
-        Timi
+Timi
       </p>
     </div>
-    </section>
+  </article>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <div class="information-header">
-      <h2>Work</h2>
-    </div>
-  <div class="information-body">
-    <div class="project-container">
-    <div class="project-surf">
-      <a href="#" class="portfolio_item">
-        <img src="images/02-portfolio-4.jpg" alt="beach" width: 50%;> 
-      </a>
-      <div class="project-title">
-        <h4>Surf Report</h4>
-        <h5>mern stack</h5>
-      </div>
-    </div>
-    <div class="project-calculator">
-      <a href="#" class="portfolio_item">
-        <img src="images/02-portfolio-2.jpg" alt="calculator" width: 50%;>
-      </a>
-      <div class="project-title">
-        <h4>Calculator</h4>
-        <h5>React/Javascript/CSS</h5>
-      </div>
-    </div>
-    <div class="project-ledwall">
-      <a href="#" class="portfolio_item">
-        <img src="images/02-portfolio-1.jpg" alt="ledwall" width: 50%;>
-      </a>
-      <div class="project-title">
-        <h4>Led Wall</h4>
-        <h5>Nod/IoT</h5>
-      </div>
-    </div>
-    <div class="project-pastelpuzzels">
-      <a href="#" class="portfolio_item">
-        <img src="images/02-portfolio-3.jpg" alt="car" width: 50%;>
-      </a>
-      <div class="project-title">
-        <h4>Pastel Puzzels</h4>
-        <h5>MERN Stack</5>
-      </div>
-    </div>
-    <div class="project-runbuddy">
-      <a href="#" class="portfolio_item">
-        <img src="images/02-run-buddy.jpg" alt="run" width: 50%;>
-      </a>
-      <div class="project-title">
-        <h4>Run Buddy</h4>
-        <h5>HTML/CSS</h5>
-      </div>
-    </div>
-  </div>
 
-  </div>
-    </section>
+  <!-- portfolio container -->
+  <article class="work information-article" id="work">
+    <div class="information-header">
+      <h3>Work</h3>
+    </div>
+    <div class="information-body project-wrapper">
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <div class="information-header">
+      <div class="project-container">
+        <div class="project surf">
+          <a href="#" class="portfolio__item1">
+            <img src="images/02-portfolio-4.jpg" alt="beach" width:50%;>
+          </a>
+          <div class="project-title">
+            <h4>surf Report</h4>
+            <h5>Mern Stack</h5>
+          </div>
+        </div>
+
+
+        <div class="project calculator">
+          <a href="#" class="portfolio__item">
+            <img src="images/02-portfolio-2.jpg" alt="calculator">
+          </a>
+          <div class="project-title">
+            <h4>calculator</h4>
+            <h5>React/javascript/CSS</h5>
+          </div>
+        </div>
+
+        <div class="project  pastelpuzzle">
+          <a href="#" class="portfolio__item">
+            <img src="images/02-portfolio-3.jpg" alt=" car">
+          </a>
+          <div class="project-title">
+            <h4>pastelpuzzle</h4>
+            <h5>Mern Stack</h5>
+          </div>
+        </div>
+
+        <div class="project run-buddy">
+          <a href="#" class="portfolio__item">
+            <img src="images/02-run-buddy.jpg" alt=" run">
+          </a>
+          <div class="project-title">
+            <h4>run-buddy</h4>
+            <h5>Html& CSS</h5>
+          </div>
+        </div>
+      </div>
+  </article>
+
+  <!-- contact -->
+  <article class="contact-me information-article" id="contact-me">
+    <div class="information-header">
       <h2>Contact Me</h2>
     </div>
     <div class="information-body">
-      <p class="contact-me-link">
-      <a href="mailto:timiwesco@yahoo.com"> timiwesco@yahoo.com</a>
-      <a href="@timiwesky"> twitter</a>
-      <a href="https://github.com/Timiwesky/Timiwesky"> Github</a>
+      <p class="contact-me-links">
+        <a href="mailto:timiwesco@yahoo.com">timiweasco@yahoo.com</a>
+        <a href="@timiwesky"> twitter</a>
+        <a href="https://github.com/Timiwesky/Timiwesky">Github</a>
       </p>
     </div>
-    </section>
-  </main>
+    </div>
+  </article>
+</main>
 </body>
 
 </html>
-
