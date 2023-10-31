@@ -25,3 +25,5 @@ MIT License
 https://timiwesky.github.io/MyPortfolio/
 
 ## Screenshot
+<img width="1370" alt="Screenshot 2023-10-31 at 12 37 17 PM" src="https://github.com/Timiwesky/MyPortfolio/assets/115565053/fa55766b-e8e5-4172-aeda-7dd2cb6e5554">
+
